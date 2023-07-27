@@ -16,4 +16,34 @@ left = \absolute {
   <fis, cis>1 ~ |
   q1 |
 
+  <fis, d>1 ~ |
+  q1 |
+
+  <fis, dis>1 ~ |
+  q1 |
+
+
+  \voiceTwo <fis, a, d fis>1 ~ |
+  q1 | \oneVoice
+
+
+
+
+
+
+
+  <a,, a,>2 <gis,, gis,> |
+  <c, c>2 \tuplet 3/2 { <b,, b,>2 r4 } |
+
+  <b, b>2 \ottava -1 <b,,, b,,> ~ |
+  1 | \ottava 0
+
+
+
+
+
+
+
+  <d, d>
+
 }
