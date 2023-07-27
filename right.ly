@@ -34,16 +34,51 @@ right = \absolute {
   
   a8\) a'\( gis' fis' <cis' gis'>8 fis'16 cis' ~ 4 ~ |
   4 r8 e' \tuplet 3/2 { b'4 a' gis' ~ } |
+
   << { \voiceOne
       8 gis'16 fis' <b d' fis'>4.\) r8 \ottava 1 <fis'' b'' d''' fis'''>4-"rhythm as tuplet?" |
-      <cis''' fis''' a''' cis''''>8 <b'' d''' fis''' b'''>4 <fis'' fis'''>8 <a'' cis''' e''' a'''>8  \ottava 0 fis'8 fis' a' |
+      <cis''' fis''' a''' cis''''>8 <b'' d''' fis''' b'''>4 <fis'' fis'''>8 <a'' cis''' e''' a'''>8  \ottava 0 fis'8\( fis' a' |
     }
     \new Voice { \voiceTwo
       s2. <fis' b' d''>4 |
-      <cis'' fis'' a''>8 <b' d'' fis''>4 r8 <a' cis'' e''>8 r4. |
+      <cis'' fis'' a''>8 <b' d'' fis''>4 r8 <a' cis'' e''>8 s4. |
     }
   >> \oneVoice
   
-  b'
+  b'8 a'16 fis' ~ 8\) r r4 fis'8\( a' |
+  b'8. a'16 ~ 4 b' cis'' |
+
+  << { \voiceOne
+      gis'1\) ~ |
+      2. r8 cis'8\( ~ |
+    }
+    \new Voice { \voiceTwo
+      <cis' e'>4 r2 q4 |
+      r2. q4 |
+    }
+  >> \oneVoice
+  
+  cis'8 fis'4\) r8 cis'''8. a'' gis''8 |
+  cis''8 r a'8\( fis' a'8. a' b'8 |
+  
+  a'4 gis'\) dis'''8. b'' ais''8 |
+  dis''4 r2. |
+  
+  << { \voiceOne
+      b'2. \tuplet 3/2 { r8 fis'8 a' } |
+    }
+    \new Voice { \voiceTwo
+      <d' fis'>
+    }
+  >> \oneVoice
+  <d' fis' b'>8 a' ~ 4 <d' fis' b'>8. <fis' a' cis''> r8 |
+  
+  << { \voiceOne
+      r4 <e'' gis'' b'' e'''>4 gis'\prall
+    }
+    \new Voice { \voiceTwo
+    s2 r2 |
+    }
+  >> \oneVoice
   
 }

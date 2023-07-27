@@ -35,6 +35,7 @@ left = \absolute {
   <a,, a,>2 <gis,, gis,> |
   <c, c>2 \tuplet 3/2 { <b,, b,>2 r4 } |
 
+
   <b, b>2 \ottava -1 <b,,, b,,> ~ |
   1 | \ottava 0
 
@@ -44,6 +45,32 @@ left = \absolute {
 
 
 
-  <d, d>
+  <d, d>4 <fis a cis'>8-. d,16 d ~ 16 d, d8 <fis a cis'>4 |
+  <d, d>4 <fis a cis'>8-. d,16 d ~ 16 d, d8 <fis a cis'>4 |
+  
+
+  cis,4 <gis b>8-. cis,16 cis ~ 16 cis, cis8 <gis b>4 |
+  cis,4 <gis b>8-. cis,16 cis ~ 16 cis, cis8 <gis b>4 |
+  
+
+
+
+
+
+
+  b,,4 <dis fis b>4. b,,8 <dis fis b>4 |
+  b,,4 <dis fis b>4. b,,8 <dis fis b>4 |
+  
+  cis,4 <cis e gis>4. cis,8 <cis e gis>4 |
+  cis,4 <cis e gis>8 cis,16 cis ~ 16 cis,16 cis8 <e gis b>8 r |
+
+
+  a1
+
+
+
+
+
+  a1
 
 }
