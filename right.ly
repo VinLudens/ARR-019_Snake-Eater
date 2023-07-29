@@ -6,7 +6,7 @@ right = \absolute {
   \tempo "Moderato" 4 = 92
 
   \partial 2
-  r2 |
+  r2 | % m.0
   r2. cis'4-"rhythm as tuplet?" |
   gis'8 fis'4 cis'8 e'2 |
   fis2. r8 a16\( b |
