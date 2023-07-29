@@ -65,20 +65,33 @@ right = \absolute {
   dis''4 r2. |
   
   << { \voiceOne
-      b'2. \tuplet 3/2 { r8 fis'8 a' } |
+      b'2. \tuplet 3/2 { r8 fis'8\( a' } |
     }
     \new Voice { \voiceTwo
-      <d' fis'>
+      <d' fis'>4 q16-. r8 q8-. r8 q16-. r4 |
     }
   >> \oneVoice
   <d' fis' b'>8 a' ~ 4 <d' fis' b'>8. <fis' a' cis''> r8 |
   
   << { \voiceOne
-      r4 <e'' gis'' b'' e'''>4 gis'\prall
+      r4 <e'' gis'' b'' e'''>4 gis'2\prall\) ~ |
+      2. cis'4\( |
     }
     \new Voice { \voiceTwo
-    s2 r2 |
+    s2 r4 <cis' e'>4 |
+    r4 q8. q q8 r4 |
     }
   >> \oneVoice
+  
+  <b d' fis' a'>2. \tuplet 3/2 { r8 gis' a' } |
+  <cis' e' gis' b'>2. <cis'' cis'''>4 |
+  
+  <b' e'' gis'' b''>8. <a' cis'' fis'' a''>16 ~ q4\) <a' cis'' fis'' a''>4 \ottava 1 <a'' cis''' fis''' a'''> |
+  <a''' cis'''' fis'''' a''''>4\arpeggio <a'' a'''> \ottava 0 r r8 cis''\( |
+  
+  \bar "||"
+  
+  cis''
+  
   
 }
