@@ -36,7 +36,7 @@ left = \absolute {
   <c, c>2 \tuplet 3/2 { <b,, b,>2 r4 } |
 
 
-  <b, b>2 \ottava -1 <b,,, b,,> ~ |
+  <b, b>2-> \ottava -1 <b,,, b,,>-^ ~ |
   1 | \ottava 0
 
 
@@ -100,6 +100,12 @@ left = \absolute {
   b,16 b a b fis b a b b, b a b fis b a b |
   b,16 b a b fis b a b b, b a b fis b a b |
 
-  <cis, cis>8-> r <cis,, cis,>4-^
+  <cis, cis>4 <cis gis cis'> <cis' gis'> <cis gis cis'> |
+  \time 6/4
+  <cis, cis>8-> r <cis,, cis,>4-^ <gis, gis>8->\( <fis, fis>4-> <cis, cis>8-> \tuplet 6/4 { <e, e>16->\) gis, cis e gis cis' } e'4 |
+  \time 4/4
+
+
+  <d,, d,>4 <fis a cis'>8 a16 a ~ 16 a a8 a4 |
 
 }

@@ -7,8 +7,8 @@ right = \absolute {
 
   \partial 2
   r2 | % m.0
-  r2. cis'4-"rhythm as tuplet?" |
-  gis'8 fis'4 cis'8 e'2 |
+  r2. cis'4->-"rhythm as tuplet?" |
+  gis'8-> fis'4-> cis'8-> e'2-> |
   fis2. r8 a16\( b |
   
   \bar "||"
@@ -68,7 +68,7 @@ right = \absolute {
       b'2. \tuplet 3/2 { r8 fis'8\( a' } |
     }
     \new Voice { \voiceTwo
-      <d' fis'>4 q16-. r8 q8-. r8 q16-. r4 |
+      <d' fis'>4 q16-. r8 q8-. r16 q16-. r16 r4 |
     }
   >> \oneVoice
   <d' fis' b'>8 a' ~ 4 <d' fis' b'>8. <fis' a' cis''> r8 |
@@ -91,7 +91,21 @@ right = \absolute {
   
   \bar "||"
   
-  cis''
+  cis''4. cis''8 cis''4. cis''16 cis'' |
+  fis''8 e''16 cis'' ~ 4\) r8 \ottava 1 cis'''8 cis''''8 \ottava 0 a'16\( b' |
   
+  cis''4. cis''8 cis''4. cis''16 cis'' |
+  gis''8 fis''16 cis'' ~ 4\) r8 \ottava 1 cis'''8 cis'''' \ottava 0 a'16\( b' |
   
+  cis''4. cis''8 cis''4. cis''16 cis'' ~ |
+  16 a''8 gis''16 ~ 8 fis''4.\) <a' a''>8\( <b' b''> |
+  
+  r8 <cis'' f'' gis'' cis'''>8 ~ 4. <b' b''>8 <fis' fis''> <cis'' cis'''> |
+  \time 6/4
+  <cis'' f'' gis'' cis'''>8 r8 q8\) \repeat tremolo 2 { cis''32 cis''' } \repeat tremolo 12 { cis''32 cis''' } <e'' e'''>8. <cis'' fis'' a'' cis'''>16 ~ |
+  \time 4/4
+
+
+  8 <b' b''>8 
+
 }
