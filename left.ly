@@ -106,6 +106,68 @@ left = \absolute {
   \time 4/4
 
 
-  <d,, d,>4 <fis a cis'>8 a16 a ~ 16 a a8 a4 |
+  <d,, d,>4 <fis a cis'>8 d,16 d ~ 16 d, d8 <fis a cis'>4 |
+  <d, d>4 <fis a cis'>8 d,16 d ~ 16 d, d8 <fis a cis'>4 |
+  
+  <cis, cis>4 <gis b>8 cis,16 cis ~ 16 cis, cis8 \ottava 1 <gis' b'>4 \ottava 0 |
+  <cis, cis>4 <gis b>8 cis,16 cis ~ 16 cis, cis8 \ottava 1 <gis' b'>4 \ottava 0 |
+  
+  <b,,, b,,>4 <dis fis b>4. b,,8 <dis fis b>4 |
+  b,,4 <dis fis b>4. b,,8 <dis fis b>4 |
+  
+  <cis,, cis,>4 <cis e gis>4. cis,8 <cis e gis>4 |
+  cis,4 <cis e gis>8 cis,16 cis ~ 16 cis,16 cis8 <e gis b>8 r |
+
+  d,4 r8 <fis a cis'>16-. r8 q16-. r8 q4 |
+
+
+
+
+
+  d,4 <fis a cis'>4 d,8. a,, r8 |
+
+
+  r4 cis, ~ 8 cis, <gis b>4 |
+  cis,4 <gis b>8 cis,16 q ~ q8 q8 ~ 4 |
+
+
+
+
+
+
+
+
+  b,,8 fis, b, cis d e fis gis |
+  cis,8 gis, cis e gis b e' b |
+
+  << { \voiceOne
+      <fis,, fis,>4 <fis, cis fis> <fis cis'> <fis, cis fis> |
+      <d fis>4 q q q |
+      <dis fis>4 q q q |
+      <d fis>4 q q q |
+    }
+    \new Voice { \voiceTwo
+      s1 |
+      fis,1 |
+      1 |
+      1 |
+    }
+  >> \oneVoice
+
+  <d,, d,>4 <fis, a, d> <fis a d'> <fis, a, d> |
+  <cis,, cis,>1 |
+  <fis,, fis,>2 \tuplet 3/2 { <gis, gis>4-> <a, a>-> <cis cis'>-> } |
+
+  << { \voiceTwo
+      \change Staff = "right" r4 \repeat tremolo 12 { a''32 cis''' } \change Staff = "left" |
+      s1 |
+    }
+    \new Voice { \oneVoice
+      <fis,, fis,>1 ~ |
+      1 |
+    }
+  >> \oneVoice
+
+  \bar "|."
 
 }

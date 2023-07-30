@@ -68,7 +68,7 @@ right = \absolute {
       b'2. \tuplet 3/2 { r8 fis'8\( a' } |
     }
     \new Voice { \voiceTwo
-      <d' fis'>4 q16-. r8 q8-. r16 q16-. r16 r4 |
+      <d' fis'>4 q16-. r8 q16-. r8 q16-. r16 r4 |
     }
   >> \oneVoice
   <d' fis' b'>8 a' ~ 4 <d' fis' b'>8. <fis' a' cis''> r8 |
@@ -106,6 +106,68 @@ right = \absolute {
   \time 4/4
 
 
-  8 <b' b''>8 
+  8 <b' b''>8 ~ 4 r <fis' fis''>8 <a' a''>8 |
+  <b' d'' fis'' b''>8. <a' a''>16 ~  4 <b' b''> <cis'' fis'' a'' cis'''> ~ |
+
+  8 <gis' cis'' e'' gis''>4. r4 \ottava 1 <b'' e''' fis''' b'''>4 |
+  r4 <b'' e'''>8. <b'' e'''> <b'' e''' fis''' b'''>8 \ottava 0 r8 <cis' cis''>8\( ~ |
+
+  8 <a' a''>4\)  r8 cis'''8. a'' gis''8 |
+  cis''8 r <a' a''>8\( <fis' fis''> <a' a''>8. <a' a''> <b' b''>8 |
+  
+  <a' a''>4 <gis' gis''>\) dis'''8. b'' ais''8 |
+  dis''4 r2. |
+
+  << { \voiceOne
+      b'2. \tuplet 3/2 { r8 fis'8\( a' } |
+    }
+    \new Voice { \voiceTwo
+      <d' fis'>4 q16-. r8 q16-. r8 q16-. r16 r4 |
+    }
+  >> \oneVoice
+  <d' fis' b'>8 a' ~ 4 <d' fis' b'>8. <fis' a' cis''> <e'' gis'' b'' e'''>8 ~ |
+  
+  << { \voiceOne
+      q2 gis'2\prall\) ~ |
+      2. <cis' cis''>4\( |
+    }
+    \new Voice { \voiceTwo
+    r4 <gis b e'> r <cis' e'>4 |
+    r4 q8. q q8 r4 |
+    }
+  >> \oneVoice
+  
+  <b' d'' fis'' a''>2. \tuplet 3/2 { r8 gis'' a'' } |
+  <cis'' e'' gis'' b''>2. <cis'' cis'''>4 |
+  
+
+  <b' e'' gis'' b''>8. <a' cis'' fis'' a''>16 ~ q4\) fis'16 a' cis'' e'' \ottava 1 fis'' a'' cis''' e''' |
+  a''' fis''' d''' cis''' cis'''' a''' fis''' d''' cis''' a'' fis'' d'' \ottava 0 cis'' a' fis' d' |
+  a b dis' fis' a' b' dis'' fis'' \ottava 0 a'' b'' dis''' fis''' \ottava 1 a''' b''' dis'''' fis'''' |
+  b'''' a'''' fis'''' d'''' cis'''' a''' fis''' d''' \ottava 0 cis''' a'' fis'' d'' \ottava 0 <b' b''>8\( <cis'' cis'''> |
+
+
+
+
+
+
+
+
+
+  <b' d'' fis'' b''>8. <a' a''>16 ~ 2 \tuplet 3/2 { <fis' fis''>8 <gis' gis''> <a' a''> } |
+  <b' cis'' f'' b''>4\) \ottava 1 <b'' cis''' f''' gis''' b'''>\arpeggio \ottava 2 <b''' cis'''' f'''' gis'''' b''''>\arpeggio\fermata \ottava 0 <cis'' cis'''>\( |
+  <b' e'' gis'' b''>8. <fis' a' cis'' fis''>16 ~ 4\) r2 |
+
+
+  <a' cis'' f'' gis''>4-> \ottava 1 \voiceOne \repeat tremolo 12 { f'''32 gis''' } \ottava 0 \oneVoice |
+  r2 \clef "bass" fis2 \fermata |
+
+
+
+
+
+
+
+  \bar ".|"
 
 }
