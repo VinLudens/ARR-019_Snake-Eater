@@ -102,14 +102,14 @@ right = \absolute {
   
   r8 <cis'' f'' gis'' cis'''>8 ~ 4. <b' b''>8 <fis' fis''> <cis'' cis'''> |
   \time 6/4
-  <cis'' f'' gis'' cis'''>8 r8 q8\) \repeat tremolo 2 { cis''32 cis''' } \repeat tremolo 12 { cis''32 cis''' } <e'' e'''>8. <cis'' fis'' a'' cis'''>16 ~ |
+  <cis'' f'' gis'' cis'''>8 r8 q8\) \repeat tremolo 2 { cis''32 cis''' } \repeat tremolo 12 { cis''32 cis''' } <e'' e'''>8.\( <cis'' fis'' a'' cis'''>16 ~ |
   \time 4/4
 
 
-  8 <b' b''>8 ~ 4 r <fis' fis''>8 <a' a''>8 |
+  8 <b' b''>8 ~ 4\) r <fis' fis''>8\( <a' a''>8 |
   <b' d'' fis'' b''>8. <a' a''>16 ~  4 <b' b''> <cis'' fis'' a'' cis'''> ~ |
 
-  8 <gis' cis'' e'' gis''>4. r4 \ottava 1 <b'' e''' fis''' b'''>4 |
+  8 <gis' cis'' e'' gis''>4.\) r4 \ottava 1 <b'' e''' fis''' b'''>4 |
   r4 <b'' e'''>8. <b'' e'''> <b'' e''' fis''' b'''>8 \ottava 0 r8 <cis' cis''>8\( ~ |
 
   8 <a' a''>4\)  r8 cis'''8. a'' gis''8 |
@@ -168,6 +168,6 @@ right = \absolute {
 
 
 
-  \bar ".|"
+  \bar "|."
 
 }
