@@ -100,6 +100,38 @@
 
 \editionMod dynamics 54 0/4 music.Dynamics \f
 \editionMod dynamics 54 2/4 music.Dynamics \mf
+\editionMod fingering 54 8/16 music.Voice.A -2
+\editionMod fingering 54 9/16 music.Voice.A -1
+\editionMod fingering 54 10/16 music.Voice.A -2
+\editionMod fingering 54 11/16 music.Voice.A -3
+\editionMod fingering 54 12/16 music.Voice.A -4
+\editionMod fingering 54 13/16 music.Voice.A -1
+
+\editionMod fingering 55 0/16 music.Voice.A -5
+\editionMod fingering 55 1/16 music.Voice.A -3
+\editionMod fingering 55 2/16 music.Voice.A -2
+\editionMod fingering 55 2/16 music.Voice.A -1
+\editionMod fingering 55 3/16 music.Voice.A -1
+\editionMod fingering 55 3/16 music.Voice.A -2
+\editionMod fingering 55 4/16 music.Voice.A -5
+\editionMod fingering 55 5/16 music.Voice.A -3
+\editionMod fingering 55 6/16 music.Voice.A -2
+\editionMod fingering 55 7/16 music.Voice.A -1
+\editionMod fingering 55 8/16 music.Voice.A -4
+\editionMod fingering 55 14/16 music.Voice.A -2
+\editionMod fingering 55 15/16 music.Voice.A -1
+
+\editionMod fingering 56 0/16 music.Voice.A -2
+\editionMod fingering 56 1/16 music.Voice.A -1
+\editionMod fingering 56 2/16 music.Voice.A -2
+\editionMod fingering 56 3/16 music.Voice.A -3
+\editionMod fingering 56 4/16 music.Voice.A -4
+\editionMod fingering 56 5/16 music.Voice.A -1
+
+\editionMod fingering 57 3/16 music.Voice.A -1
+\editionMod fingering 57 4/16 music.Voice.A -4
+\editionMod fingering 57 10/16 music.Voice.A -2
+\editionMod fingering 57 11/16 music.Voice.A -1
 
 \editionMod dynamics 57 3/4 music.Dynamics \ff
 
