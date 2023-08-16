@@ -14,7 +14,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   } }
 }
 
-%#(set-global-staff-size 20)
+#(set-global-staff-size 18)
 %showLastLength = R1 * 10
 
 \paper {
@@ -54,6 +54,6 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   }
   \midi {
     %\tempo 4=80
-    \set Staff.midiMaximumVolume = #0.7
+    \set Staff.midiMaximumVolume = #7
   }
 }
