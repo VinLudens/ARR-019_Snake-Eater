@@ -159,7 +159,7 @@ left = \absolute {
   <fis,, fis,>2 \tuplet 3/2 { <gis, gis>4-> <a, a>-> <cis cis'>-> } |
 
   << { \voiceTwo
-      \change Staff = "right" r4 \repeat tremolo 12 { a''32 cis''' } \change Staff = "left" |
+      \change Staff = "right" s4 \repeat tremolo 12 { a''32 cis''' } \change Staff = "left" |
       s1 |
     }
     \new Voice { \oneVoice

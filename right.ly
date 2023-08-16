@@ -36,8 +36,8 @@ right = \absolute {
   4 r8 e' \tuplet 3/2 { b'4 a' gis' ~ } |
 
   << { \voiceOne
-      8 gis'16 fis' <b d' fis'>4.\) r8 \ottava 1 <fis'' b'' d''' fis'''>4-"rhythm as tuplet?" |
-      <cis''' fis''' a''' cis''''>8 <b'' d''' fis''' b'''>4 <fis'' fis'''>8 <a'' cis''' e''' a'''>8  \ottava 0 fis'8\( fis' a' |
+      8 gis'16 fis' <b d' fis'>4.\) r8 \ottava 1 <fis'' b'' d''' fis'''>4 |
+      <cis''' fis''' a''' cis''''>8-"rhythm as tuplet?" <b'' d''' fis''' b'''>4 <fis'' fis'''>8 <a'' cis''' e''' a'''>8  \ottava 0 fis'8\( fis' a' |
     }
     \new Voice { \voiceTwo
       s2. <fis' b' d''>4 |
