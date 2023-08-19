@@ -80,8 +80,11 @@
 \editionMod dynamics 38 0/4 music.Dynamics \f
 
 \editionMod dynamics 39 1/4 music.Dynamics \fff
+\editionMod tweaks 39 23/16 music.Voice.A \once\override Tie.layer = #-2
 
 \editionMod dynamics 40 0/4 music.Dynamics \ff
+\editionMod tweaks 40 0/4 music.Voice.A \once\override Staff.TimeSignature.layer = #-1
+\editionMod tweaks 40 0/4 music.Voice.A \once\override Staff.TimeSignature.whiteout = #3
 
 \editionMod dynamics 42 3/4 music.Voice.A \tiny
 
