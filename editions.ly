@@ -27,11 +27,13 @@
 \editionMod dynamics 8 3/8 music.Voice.A \tiny
 
 \editionMod dynamics 9 1/4 music.Voice.A \normalsize
+\editionMod tweaks 9 3/8 music.Voice.A \shape #'((0 . -2) (3 . 2.5) (-6 . -2) (-0.6 . -5)) PhrasingSlur
 
 \editionMod dynamics 10 2/8 music.Voice.C \tiny
 
 \editionMod dynamics 12 3/4 music.Voice.C \normalsize
 \editionMod dynamics 12 0/4 music.Dynamics \cresc
+\editionMod tweaks 12 1/8 music.Voice.A \shape #'(() ((0 . 0) (0 . 0) (-4 . 0.7) (0 . -1.8))) PhrasingSlur
 
 \editionMod dynamics 14 0/4 music.Dynamics \f
 \editionMod dynamics 14 2/4 music.Dynamics \sf
@@ -59,6 +61,8 @@
 \editionMod dynamics 26 2/4 music.Dynamics \>
 \editionMod dynamics 26 3/4 music.Dynamics \!
 
+\editionMod tweaks 27 3/4 music.Voice.A \shape #'(((0 . -1.2) (0 . 1) (0 . 0) (0 . 0)) ((0 . 0) (0 . 0) (0 . 0) (0 . -0.3))) PhrasingSlur
+
 \editionMod dynamics 28 0/4 music.Dynamics \cresc
 
 \editionMod dynamics 30 0/4 music.Dynamics \f
@@ -71,9 +75,11 @@
 
 \editionMod dynamics 33 5/8 music.Voice.A \tiny
 \editionMod dynamics 33 7/8 music.Voice.A \normalsize
+\editionMod tweaks 33 7/8 music.Voice.A \shape #'((0 . 0) (0 . 0) (-2 . 1.5) (0 . -1.0)) PhrasingSlur
 
 \editionMod dynamics 35 5/8 music.Voice.A \tiny
 \editionMod dynamics 35 7/8 music.Voice.A \normalsize
+\editionMod tweaks 35 7/8 music.Voice.A \shape #'(() ((0 . 0) (0 . 0) (0 . 0.5) (0 . -1.0))) PhrasingSlur
 
 \editionMod dynamics 36 2/4 music.Dynamics \cresc
 \editionMod dynamics 36 2/4 music.Dynamics \once\override DynamicTextSpanner.style = #'none
@@ -113,6 +119,8 @@
 % \editionMod tweaks 50 1/4 music.Voice.L \once\override NoteHead.layer = #-1
 % \editionMod tweaks 50 1/4 music.Voice.L \once\override NoteHead.whiteout = #4.3
 
+\editionMod tweaks 51 3/4 music.Voice.A \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . -0.3)) PhrasingSlur
+
 \editionMod dynamics 54 0/4 music.Dynamics \f
 \editionMod dynamics 54 2/4 music.Dynamics \mf
 \editionMod fingering 54 8/16 music.Voice.A -2
@@ -121,6 +129,7 @@
 \editionMod fingering 54 11/16 music.Voice.A -3
 \editionMod fingering 54 12/16 music.Voice.A -4
 \editionMod fingering 54 13/16 music.Voice.A -1
+\editionMod tweaks 54 3/16 music.Voice.A \once\override Tie.minimum-length = #2.5
 
 \editionMod fingering 55 0/16 music.Voice.A -5
 \editionMod fingering 55 1/16 music.Voice.A -3
@@ -157,8 +166,10 @@
 \editionMod dynamics 59 2/4 music.Dynamics \!
 \editionMod dynamics 59 3/4 music.Voice.A \normalsize
 \editionMod dynamics 59 3/4 music.Dynamics \mp
+\editionMod tweaks 59 3/4 music.Voice.A \shape #'((0 . 0) (0 . 0) (0 . 0) (0 . 0.2)) PhrasingSlur
 
 \editionMod dynamics 60 2/4 music.Dynamics \<
+\editionMod tweaks 60 3/16 music.Voice.A \once\override Tie.minimum-length = #2.5
 
 \editionMod dynamics 61 0/4 music.Dynamics \sfz
 \editionMod dynamics 61 1/4 music.Dynamics \pp
