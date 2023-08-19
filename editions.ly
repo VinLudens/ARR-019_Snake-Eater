@@ -51,6 +51,7 @@
 \editionMod dynamics 23 1/4 music.Voice.A \normalsize
 
 \editionMod dynamics 24 0/4 music.Dynamics \mf
+\editionMod tweaks 24 10/12 music.Voice.A \shape #'(() ((0 . 0) (0 . 0) (0 . 0) (0 . 0.4))) PhrasingSlur
 
 \editionMod dynamics 25 2/4 music.Dynamics \<
 
@@ -101,6 +102,16 @@
 \editionMod dynamics 47 1/4 music.Voice.A \normalsize
 
 \editionMod dynamics 48 0/4 music.Dynamics \f
+\editionMod tweaks 48 10/12 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 0)
+\editionMod tweaks 48 10/12 music.Voice.A \shape #'((0 . 0) (0 . 0) (0 . 0) (-0.3 . 0.4)) PhrasingSlur
+\editionMod tweaks 48 10/12 music.Voice.A \once\override PhrasingSlur.layer = #-4
+
+% \editionMod tweaks 50 1/4 music.Voice.J \once\override NoteHead.layer = #-3
+% \editionMod tweaks 50 1/4 music.Voice.J \once\override NoteHead.whiteout = #4.3
+\editionMod tweaks 50 1/4 music.Voice.K \once\override NoteHead.layer = #-2
+\editionMod tweaks 50 1/4 music.Voice.K \once\override NoteHead.whiteout = #4.3
+% \editionMod tweaks 50 1/4 music.Voice.L \once\override NoteHead.layer = #-1
+% \editionMod tweaks 50 1/4 music.Voice.L \once\override NoteHead.whiteout = #4.3
 
 \editionMod dynamics 54 0/4 music.Dynamics \f
 \editionMod dynamics 54 2/4 music.Dynamics \mf

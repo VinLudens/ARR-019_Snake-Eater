@@ -132,7 +132,7 @@ right = \absolute {
       2. <cis' cis''>4\( |
     }
     \new Voice { \voiceTwo
-    r4 <gis b e'> r <cis' e'>4 |
+    r4 << { \voiceTwo gis } \\ { \voiceTwo b } \\ { \voiceTwo e' } >> r <cis' e'>4 |
     r4 q8. q q8 r4 |
     }
   >> \oneVoice
