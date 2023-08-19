@@ -65,7 +65,7 @@ right = \absolute {
   dis''4 r2. |
   
   << { \voiceOne
-      b'2. \tuplet 3/2 { r8 fis'8\( a' } |
+      b'2. \tuplet 3/2 { r8 fis'8_\( a' } |
     }
     \new Voice { \voiceTwo
       <d' fis'>4 q16-. r8 q16-. r8 q16-. r16 r4 |
@@ -119,7 +119,7 @@ right = \absolute {
   dis''4 r2. |
 
   << { \voiceOne
-      b'2. \tuplet 3/2 { r8 fis'8\( a' } |
+      b'2. \tuplet 3/2 { r8 fis'8_\( a' } |
     }
     \new Voice { \voiceTwo
       <d' fis'>4 q16-. r8 q16-. r8 q16-. r16 r4 |

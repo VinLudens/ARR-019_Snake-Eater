@@ -37,6 +37,7 @@
 \editionMod dynamics 14 2/4 music.Dynamics \sf
 
 \editionMod dynamics 15 5/8 music.Dynamics \mp
+\editionMod tweaks 15 5/8 music.Voice.A \once\override PhrasingSlur.positions = #'(0 . 2)
 
 \editionMod dynamics 19 7/8 music.Dynamics \<
 
