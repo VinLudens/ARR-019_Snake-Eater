@@ -66,7 +66,7 @@
 \editionMod dynamics 28 0/4 music.Dynamics \cresc
 
 \editionMod dynamics 30 0/4 music.Dynamics \f
-\editionMod dynamics 30 2/4 music.Dynamics \<
+\editionMod dynamics 30 2/4 music.Dynamics \>
 
 \editionMod dynamics 31 0/4 music.Dynamics \p
 \editionMod dynamics 31 0/4 music.Dynamics \>
