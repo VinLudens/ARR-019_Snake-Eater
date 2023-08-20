@@ -53,6 +53,7 @@
 \editionMod dynamics 23 1/4 music.Voice.A \normalsize
 
 \editionMod dynamics 24 0/4 music.Dynamics \mf
+\editionMod tweaks 24 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.3
 \editionMod tweaks 24 10/12 music.Voice.A \shape #'(() ((0 . 0) (0 . 0) (0 . 0) (0 . 0.4))) PhrasingSlur
 
 \editionMod dynamics 25 2/4 music.Dynamics \<
